@@ -14,6 +14,10 @@ userIP = ""
 # 以太网IPv4地址
 userMac = ""
 # 本机mac地址
+""" example:
+XX-XX-XX-XX-XX-XX    NO
+XXXXXXXXXXXX         YES
+"""
 loginUrl = "/eportal/?c=Portal&a=login&callback=dr1003&login_method=1&user_account={}%40{}&user_password={}&wlan_user_ip={}&wlan_user_ipv6=&wlan_user_mac={}&wlan_ac_ip=&wlan_ac_name=&jsVersion=3.3.2".format(
     userName, operators, password, userIP, userMac)
 # 登陆接口
